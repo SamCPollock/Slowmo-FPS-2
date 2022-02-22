@@ -1080,6 +1080,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa968fd5cd6b6c04f96dc2a247a893b5, type: 3}
+--- !u!4 &1389306499 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8428896618758769713, guid: d21120bb728aea849a5cd47da5edecac, type: 3}
+  m_PrefabInstance: {fileID: 8428896619449632261}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1483334686 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8428896620041106845, guid: d21120bb728aea849a5cd47da5edecac, type: 3}
+  m_PrefabInstance: {fileID: 8428896619449632261}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1565097695
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1429,6 +1439,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1389306495, guid: d21120bb728aea849a5cd47da5edecac, type: 3}
+      propertyPath: self
+      value: 
+      objectReference: {fileID: 1389306499}
+    - target: {fileID: 1389306495, guid: d21120bb728aea849a5cd47da5edecac, type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 1483334686}
+    - target: {fileID: 1389306495, guid: d21120bb728aea849a5cd47da5edecac, type: 3}
+      propertyPath: playerBody
+      value: 
+      objectReference: {fileID: 1389306499}
+    - target: {fileID: 8428896618758769712, guid: d21120bb728aea849a5cd47da5edecac, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     - target: {fileID: 8428896618758769713, guid: d21120bb728aea849a5cd47da5edecac, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -1476,6 +1502,10 @@ PrefabInstance:
     - target: {fileID: 8428896618758769718, guid: d21120bb728aea849a5cd47da5edecac, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8428896618985720807, guid: d21120bb728aea849a5cd47da5edecac, type: 3}
+      propertyPath: m_Name
+      value: Weapon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d21120bb728aea849a5cd47da5edecac, type: 3}
